@@ -1,0 +1,65 @@
+.noticiascardcontenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+    width: 90%;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  
+  .container {
+    display: block;
+    width: auto;
+    border-radius: 25%;
+    margin-bottom: 20px;
+  }
+  
+  .contenedorimg {
+    flex: 0 0 30%;
+    overflow: hidden;
+  }
+  
+  .contenedorimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .contenedordeTexto {
+    flex: 1;
+    padding: 20px;
+    background-image: radial-gradient(40% 20% at 50% 0, rgba(104, 104, 104, 0.85), #111111);
+  }
+  
+  .contenedordeTexto p {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    color: white;
+    display: -webkit-box;
+   
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .contenedordeTexto h2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: white;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .contenedordeTexto button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contenedordeTexto button:hover {
+    background-color: #2980b9;
+  }

@@ -1,0 +1,63 @@
+.sombracontenedor {
+  width: 85%;
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: center;
+  margin: auto;
+  background-color: black;  
+}
+
+.sombra.card {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex;  
+}
+
+.tarjetacontenedor {
+  display: flex;
+  flex-direction: column;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.card {
+  width: 300px;  
+  height: 350px; 
+  background-color: #1c1c1c;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.coso {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1em;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent);
+  color: white;
+}
+
+.card-image {
+  width: 100%;
+  height: 300px; 
+  object-fit: cover;
+}
+
+.username {
+  color: white;
+  font-size: 1rem;
+  margin: 0;
+  text-align: center;
+}
+
+.icon {
+  width: 20px;  
+}

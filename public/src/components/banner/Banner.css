@@ -1,0 +1,79 @@
+.imgfondo {
+    position: relative;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+ 
+}
+
+.imgfondo img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.logo-img{
+    position: absolute; 
+    left: 60%; 
+    transform: translate(-50%, -50%); 
+    width: 50%; 
+    
+    
+}
+
+.logocontenedorboton {
+    position: absolute; 
+    top: 55%; 
+    left: 25%; 
+    transform: translate(-70%, -70%); 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    
+}
+
+p {
+    font-size: 20px; 
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+    font-weight: 50;
+    margin-bottom: 20px; 
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem; 
+    width: 1000px; 
+}
+
+.button-register,
+.button-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%; 
+    border-radius: 1.5rem; 
+    background-color: rgb(255, 0, 0); 
+}
+
+.button-register {
+    background-color:rgb(12, 1, 116) ; 
+    border: 2px solid rgb(12, 1, 116);
+}
+
+.button-register a,
+.button-login a {
+    color: #ffffff; 
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0.8rem 0; 
+}
+
+.button-login {
+    background-color: none; 
+    border: 2px solid #ffffff; 
+}

@@ -1,0 +1,88 @@
+.have-funT {
+    background-color: #000; 
+    background-image: url('https://www.elespectador.com/resizer/v2/P2PD4BBGERENJMVJ7EG7OCRPHA.png?auth=38ee835ecc5c34b2c26b1eb633eb7c044ec60dd81f12fb19ca10e538ed196927&width=920&height=613&smart=true&quality=60');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.have-fun contenedor {
+    flex: 1;
+    padding: 20px;
+    margin: 0 0 0 5rem;
+}
+
+.havefuncontenedor {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 18rem;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #0768AF;
+    font-size: 3em;
+    margin: 0;
+    line-height: 1.2;
+}
+
+p {
+    color: white;
+    text-transform: capitalize;
+    font-size: 24px;
+    max-width: 250px;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+    margin: 0 0 1.5rem 0;
+}
+
+h3 {
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    margin: 0;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+li {
+    color: white;
+    margin: 2px 0;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+.button-register,
+.botonlogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    border-radius: 2rem;
+}
+
+.button-register a,
+.botonlogin a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 1rem 0;
+}
+
+.botonlogin {
+    border: 2px solid white;
+}
